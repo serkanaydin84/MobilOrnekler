@@ -30,6 +30,9 @@
         <activity android:name=".U4_Uyg7" android:label="@string/u4_uyg7"></activity>
         <activity android:name=".U4_Uyg8" android:label="@string/u4_uyg8"></activity>
         <activity android:name=".U4_Uyg9" android:label="@string/u4_uyg9"></activity>
+
+        <activity android:name=".U4_GoldSoru1" android:label="@string/u4_goldsoru1"></activity>
+        <activity android:name=".U4_GoldSoru2" android:label="@string/u4_goldsoru2"></activity>
     </application>
 
 </manifest>

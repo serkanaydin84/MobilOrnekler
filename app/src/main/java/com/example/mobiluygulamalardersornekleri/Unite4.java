@@ -31,7 +31,17 @@ public class Unite4 extends AppCompatActivity {
     }
 
     public void btnU4Uyg10 (View view) {
-        Intent i = new Intent(Unite4.this, U4Uyg10.class);
+        Intent i = new Intent(Unite4.this, U4_Uyg10.class);
+        startActivity(i);
+    }
+
+    public void btnU4GoldSoru1 (View view) {
+        Intent i = new Intent(Unite4.this, U4_GoldSoru1.class);
+        startActivity(i);
+    }
+
+    public void btnU4GoldSoru2 (View view) {
+        Intent i = new Intent(Unite4.this, U4_GoldSoru2.class);
         startActivity(i);
     }
 }

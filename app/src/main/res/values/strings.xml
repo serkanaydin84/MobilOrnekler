@@ -19,4 +19,6 @@
     <string name="u4_uyg8">Uygulama 8 (For Döngü Örneği-2)</string>
     <string name="u4_uyg9">Uygulama 9 (Tek - Çift)</string>
     <string name="u4_uyg10">Uygulama 10 (While ile Faktoriyel Hesaplama)</string>
+    <string name="u4_goldsoru1">GoldSoru 1 (Çarpım Tablosu)</string>
+    <string name="u4_goldsoru2">GoldSoru 2 (Tek ve Çift Sayıları Topla)</string>
 </resources>
