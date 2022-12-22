@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mobil Uygulamalar Ders Örnekleri</string>
+
+    <string name="unite1">Ünite 1 ()</string>
+    <string name="unite2">Ünite 2 ()</string>
+    <string name="unite3">Ünite 3 ()</string>
+    <string name="unite4">Ünite 4 (Karar ve Döngü Yapıları)</string>
+    <string name="unite5">Ünite 5 ()</string>
+    <string name="unite6">Ünite 6 ()</string>
+    <string name="unite7">Ünite 7 ()</string>
+
+    <string name="u4_uyg1">Uygulama 1 ()</string>
+    <string name="u4_uyg2">Uygulama 2 ()</string>
+    <string name="u4_uyg3">Uygulama 3 ()</string>
+    <string name="u4_uyg4">Uygulama 4 ()</string>
+    <string name="u4_uyg5">Uygulama 5 ()</string>
+    <string name="u4_uyg6">Uygulama 6 ()</string>
+    <string name="u4_uyg7">Uygulama 7 (For Döngü Örneği-1)</string>
+    <string name="u4_uyg8">Uygulama 8 (For Döngü Örneği-2)</string>
+    <string name="u4_uyg9">Uygulama 9 (Tek - Çift)</string>
+    <string name="u4_uyg10">Uygulama 10 (While ile Faktoriyel Hesaplama)</string>
+</resources>
