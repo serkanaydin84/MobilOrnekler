@@ -16,29 +16,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <EditText
-            android:id="@+id/txtTorba1"
-            android:layout_width="wrap_content"
-            android:layout_height="225dp"
-            android:layout_marginTop="40dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:hint="1.Torba Takımları"
-            android:inputType="textMultiLine"
-            android:minHeight="48dp" />
+        <ListView
+            android:id="@+id/listTorba1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
-        <EditText
-            android:id="@+id/txtTorba2"
-            android:layout_width="wrap_content"
-            android:layout_height="225dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginRight="0dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:hint="2.Torba Takımları"
-            android:inputType="textMultiLine"
-            android:minHeight="48dp" />
+        <ListView
+            android:id="@+id/listTorba2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
 
+        </ListView>
     </LinearLayout>
 
     <LinearLayout
