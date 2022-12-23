@@ -18,8 +18,8 @@ public class U4_GoldSoru2 extends AppCompatActivity {
         setContentView(R.layout.u2_goldsoru2);
 
         txtSayi = findViewById(R.id.txtSayi);
-        txtCift = findViewById(R.id.txtCiftSayiTop);
-        txtTek = findViewById(R.id.txtTekSayiTop);
+        txtCift = findViewById(R.id.txtTorba2);
+        txtTek = findViewById(R.id.txtTorba1);
     }
 
     public void btnHesapla (View view) {

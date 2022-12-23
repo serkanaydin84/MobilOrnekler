@@ -17,7 +17,7 @@ public class U4_GoldSoru1 extends AppCompatActivity {
         setContentView(R.layout.u2_goldsoru1);
 
         txtSayi = findViewById(R.id.txtSayi);
-        txtCarpimTablosu = findViewById(R.id.txtTekSayiTop);
+        txtCarpimTablosu = findViewById(R.id.txtTorba1);
     }
 
     public void btnHesapla (View view) {

@@ -15,7 +15,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtSayi">
 
         <EditText
-            android:id="@+id/txtTekSayiTop"
+            android:id="@+id/txtTorba1"
             android:layout_width="wrap_content"
             android:layout_height="425dp"
             android:layout_marginTop="40dp"
@@ -26,7 +26,7 @@
             android:minHeight="48dp" />
 
         <EditText
-            android:id="@+id/txtCiftSayiTop"
+            android:id="@+id/txtTorba2"
             android:layout_width="wrap_content"
             android:layout_height="425dp"
             android:layout_marginTop="40dp"
