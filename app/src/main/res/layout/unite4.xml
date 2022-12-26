@@ -145,7 +145,7 @@
         android:onClick="btnU4GoldSoru3"
         android:text="@string/u4_goldsoru3"
         android:textColor="@color/black"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

@@ -19,8 +19,8 @@ public class U4_GoldSoru3 extends AppCompatActivity {
     ListView listTorba1, listTorba2;
     EditText txtGrupA, txtGrupB, txtGrupC, txtGrupD;
 
-    private String[] arrayTorba1 = {"Almanya", "Fransa", "İngiltere", "Brezilya", "Arjantin", "Belçika", "İspanya", "Hırvatistan"};
-    private String[] arrayTorba2 = {"TÜRKİYE", "Fas", "Senegal", "Qatar", "Meksika", "Japonya", "Suudi Arabistan"};
+    private ArrayList<String> arrayTorba1 = new ArrayList<String>();
+    private ArrayList<String> arrayTorba2 = new ArrayList<String>();
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -28,12 +28,31 @@ public class U4_GoldSoru3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u2_goldsoru3);
 
-        listTorba1 = findViewById(R.id.listTorba2);
+        listTorba1 = findViewById(R.id.listTorba1);
         listTorba2 = findViewById(R.id.listTorba2);
         txtGrupA = findViewById(R.id.txtGrupA);
         txtGrupB = findViewById(R.id.txtGrupB);
         txtGrupC = findViewById(R.id.txtGrupC);
         txtGrupD = findViewById(R.id.txtGrupD);
+
+        arrayTorba1.add("Almanya");
+        arrayTorba1.add("Fransa");
+        arrayTorba1.add("İngiltere");
+        arrayTorba1.add("Brezilya");
+        arrayTorba1.add("Arjantin");
+        arrayTorba1.add("Belçika");
+        arrayTorba1.add("İspanya");
+        arrayTorba1.add("Hırvatistan");
+
+        arrayTorba2.add("TÜRKİYE");
+        arrayTorba2.add("Fas");
+        arrayTorba2.add("Senegal");
+        arrayTorba2.add("Qatar");
+        arrayTorba2.add("Meksika");
+        arrayTorba2.add("Japonya");
+        arrayTorba2.add("Suudi Arabistan");
+        arrayTorba2.add("Nijerya");
+
 
         ArrayAdapter<String> arrayAdapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, android.R.id.text1, arrayTorba1);
         ArrayAdapter<String> arrayAdapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_2, android.R.id.text2, arrayTorba2);
@@ -45,21 +64,37 @@ public class U4_GoldSoru3 extends AppCompatActivity {
     public void btnKura (View view) {
         Random random = new Random();
 
-        int torba1 = arrayTorba1.length;
-        int torba2 = arrayTorba2.length;
-        System.out.println(torba1 + torba2);
+        int torba1 = arrayTorba1.size();
+        int torba2 = arrayTorba2.size();
         int donguSonu = torba1 + torba2;
 
-        for (int i = 1; i <= donguSonu; i++) {
+        for (int i = 0; i < donguSonu; i++) {
             int kura = random.nextInt(donguSonu);
-            if (i % 4 == 0) {
+            System.out.println("##########" + donguSonu + "***" + kura);
 
-            } else if (i % 4 == 1) {
+            if (i % 4 == 1) {
+                txtGrupA.setText(txtGrupA.getText() + "\n" + arrayTorba1.get(kura));
+                txtGrupA.setText(txtGrupA.getText() + "\n" + arrayTorba2.get(kura));
 
-            } else if (i % 4 == 1) {
-
+                System.out.println("---" + txtGrupA.getText() + "\n" + arrayTorba1.get(kura));
+                System.out.println("---" + txtGrupA.getText() + "\n" + arrayTorba2.get(kura));
+                //arrayTorba1.remove(kura);
+                //arrayTorba2.remove(kura);
+            } else if (i % 4 == 2) {
+                txtGrupB.setText(txtGrupB.getText() + "\n" + arrayTorba1.get(kura));
+                txtGrupB.setText(txtGrupB.getText() + "\n" + arrayTorba2.get(kura));
+                //arrayTorba1.remove(kura);
+                //arrayTorba2.remove(kura);
+            } else if (i % 4 == 3) {
+                txtGrupC.setText(txtGrupC.getText() + "\n" + arrayTorba1.get(kura));
+                txtGrupC.setText(txtGrupC.getText() + "\n" + arrayTorba2.get(kura));
+                //arrayTorba1.remove(kura);
+                //arrayTorba2.remove(kura);
             } else {
-
+                txtGrupD.setText(txtGrupD.getText() + "\n" + arrayTorba1.get(kura));
+                txtGrupD.setText(txtGrupD.getText() + "\n" + arrayTorba2.get(kura));
+                //arrayTorba1.remove(kura);
+                //arrayTorba2.remove(kura);
             }
         }
     }

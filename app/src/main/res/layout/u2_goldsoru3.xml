@@ -26,7 +26,8 @@
             android:id="@+id/listTorba2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1" >
+            android:layout_marginRight="5dp"
+            android:layout_weight="1">
 
         </ListView>
     </LinearLayout>
@@ -81,7 +82,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/btnHesapla"
+        app:layout_constraintBottom_toTopOf="@+id/btnKura"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,7 +130,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnHesapla"
+        android:id="@+id/btnKura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
