@@ -24,7 +24,7 @@ public class U4_Uyg10 extends AppCompatActivity {
         viewSonuc = findViewById(R.id.viewSonuc);
     }
 
-    public void  btnHesapla (View view) {
+    public void btnHesapla (View view) {
         int faktoriyel = Integer.parseInt(txtFaktoriyel.getText().toString());
         int sayac = 1;
         long sonuc = 1;
