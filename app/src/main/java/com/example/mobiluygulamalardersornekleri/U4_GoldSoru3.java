@@ -50,7 +50,7 @@ public class U4_GoldSoru3 extends AppCompatActivity {
         arrayTorba2.add("Qatar");
         arrayTorba2.add("Meksika");
         arrayTorba2.add("Japonya");
-        arrayTorba2.add("Suudi Arabistan");
+        arrayTorba2.add("S. Arabistan");
         arrayTorba2.add("Nijerya");
 
 
@@ -62,40 +62,68 @@ public class U4_GoldSoru3 extends AppCompatActivity {
     }
 
     public void btnKura (View view) {
+        temizle();
         Random random = new Random();
 
         int torba1 = arrayTorba1.size();
         int torba2 = arrayTorba2.size();
         int donguSonu = torba1 + torba2;
+        int kura;
+        for (int i = 1; i <= donguSonu/2; i++) {
+            kura = random.nextInt(donguSonu/2);
 
-        for (int i = 0; i < donguSonu; i++) {
-            int kura = random.nextInt(donguSonu);
-            System.out.println("##########" + donguSonu + "***" + kura);
+            System.out.println("Kura ÇIKAN NUM: " + kura);
 
             if (i % 4 == 1) {
-                txtGrupA.setText(txtGrupA.getText() + "\n" + arrayTorba1.get(kura));
-                txtGrupA.setText(txtGrupA.getText() + "\n" + arrayTorba2.get(kura));
+                try {
 
-                System.out.println("---" + txtGrupA.getText() + "\n" + arrayTorba1.get(kura));
-                System.out.println("---" + txtGrupA.getText() + "\n" + arrayTorba2.get(kura));
-                //arrayTorba1.remove(kura);
-                //arrayTorba2.remove(kura);
+                    txtGrupA.setText(txtGrupA.getText() + "\n" + arrayTorba1.get(kura));
+                    txtGrupA.setText(txtGrupA.getText() + "\n" + arrayTorba2.get(kura));
+                }
+                catch (Exception e) {
+                    System.out.println(e);
+                }
             } else if (i % 4 == 2) {
-                txtGrupB.setText(txtGrupB.getText() + "\n" + arrayTorba1.get(kura));
-                txtGrupB.setText(txtGrupB.getText() + "\n" + arrayTorba2.get(kura));
+
+                try {
+                    txtGrupB.setText(txtGrupB.getText() + "\n" + arrayTorba1.get(kura));
+                    txtGrupB.setText(txtGrupB.getText() + "\n" + arrayTorba2.get(kura));
+                }
+                catch (Exception e) {
+                    System.out.println(e);
+                }
                 //arrayTorba1.remove(kura);
                 //arrayTorba2.remove(kura);
             } else if (i % 4 == 3) {
-                txtGrupC.setText(txtGrupC.getText() + "\n" + arrayTorba1.get(kura));
-                txtGrupC.setText(txtGrupC.getText() + "\n" + arrayTorba2.get(kura));
+                try {
+                    txtGrupC.setText(txtGrupC.getText() + "\n" + arrayTorba1.get(kura));
+                    txtGrupC.setText(txtGrupC.getText() + "\n" + arrayTorba2.get(kura));
+                }
+                catch (Exception e) {
+                    System.out.println(e);
+                }
                 //arrayTorba1.remove(kura);
                 //arrayTorba2.remove(kura);
             } else {
-                txtGrupD.setText(txtGrupD.getText() + "\n" + arrayTorba1.get(kura));
-                txtGrupD.setText(txtGrupD.getText() + "\n" + arrayTorba2.get(kura));
+                try {
+                    txtGrupD.setText(txtGrupD.getText() + "\n" + arrayTorba1.get(kura));
+                    txtGrupD.setText(txtGrupD.getText() + "\n" + arrayTorba2.get(kura));
+                }
+                catch (Exception e) {
+                    System.out.println(e);
+                }
                 //arrayTorba1.remove(kura);
                 //arrayTorba2.remove(kura);
             }
         }
+
+
+    }
+
+    public void temizle() {
+        txtGrupA.setText("");
+        txtGrupB.setText("");
+        txtGrupC.setText("");
+        txtGrupD.setText("");
     }
 }
