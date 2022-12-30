@@ -99,16 +99,6 @@
             android:inputType="textMultiLine" />
 
         <EditText
-            android:id="@+id/txtGrupB"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:gravity="start|top"
-            android:hint="B Grubu"
-            android:inputType="textMultiLine" />
-
-        <EditText
             android:id="@+id/txtGrupC"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
@@ -116,6 +106,16 @@
             android:ems="10"
             android:gravity="start|top"
             android:hint="C Grubu"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/txtGrupB"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="B Grubu"
             android:inputType="textMultiLine" />
 
         <EditText
