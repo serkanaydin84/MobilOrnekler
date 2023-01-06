@@ -9,7 +9,6 @@ import android.widget.ListView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -26,7 +25,7 @@ public class U4_GoldSoru3 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.u2_goldsoru3);
+        setContentView(R.layout.u4_goldsoru3);
 
         listTorba1 = findViewById(R.id.listTorba1);
         listTorba2 = findViewById(R.id.listTorba2);

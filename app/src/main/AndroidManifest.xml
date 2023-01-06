@@ -27,14 +27,23 @@
         </activity>
 
         <activity android:name=".Unite4" android:label="@string/unite4"></activity>
+        <activity android:name=".Unite5" android:label="@string/unite5"></activity>
+
+
+
         <activity android:name=".U4_Uyg7" android:label="@string/u4_uyg7"></activity>
         <activity android:name=".U4_Uyg8" android:label="@string/u4_uyg8"></activity>
         <activity android:name=".U4_Uyg9" android:label="@string/u4_uyg9"></activity>
         <activity android:name=".U4_Uyg10" android:label="@string/u4_uyg10"></activity>
-
         <activity android:name=".U4_GoldSoru1" android:label="@string/u4_goldsoru1"></activity>
         <activity android:name=".U4_GoldSoru2" android:label="@string/u4_goldsoru2"></activity>
         <activity android:name=".U4_GoldSoru3" android:label="@string/u4_goldsoru3"></activity>
+
+
+
+        <activity android:name=".U5_Uyg1" android:label="@string/u5_uyg1"></activity>
+        <activity android:name=".U5_Uyg2" android:label="@string/u5_uyg2"></activity>
+        <activity android:name=".U5_SS_165" android:label="@string/u5_ss_165"></activity>
     </application>
 
 </manifest>

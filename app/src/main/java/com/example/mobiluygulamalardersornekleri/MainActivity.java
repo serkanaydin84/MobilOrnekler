@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Unite4.class);
         startActivity(i);
     }
+
+    public void unite5Goster (View view) {
+        Intent i = new Intent(MainActivity.this, Unite5.class);
+        startActivity(i);
+    }
 }

@@ -1,13 +1,15 @@
 <resources>
     <string name="app_name">Mobil Uygulamalar Ders Örnekleri</string>
 
-    <string name="unite1">Ünite 1 ()</string>
-    <string name="unite2">Ünite 2 ()</string>
-    <string name="unite3">Ünite 3 ()</string>
+    <string name="unite1">Ünite 1 (Mobil Uygulama Geliştirmeye Hazırlık)</string>
+    <string name="unite2">Ünite 2 (Ekran Tasarımı)</string>
+    <string name="unite3">Ünite 3 (Temel Komutlar)</string>
     <string name="unite4">Ünite 4 (Karar ve Döngü Yapıları)</string>
-    <string name="unite5">Ünite 5 ()</string>
-    <string name="unite6">Ünite 6 ()</string>
-    <string name="unite7">Ünite 7 ()</string>
+    <string name="unite5">Ünite 5 (Gelişmiş Komutlar)</string>
+    <string name="unite6">Ünite 6 (Uygulama Tasarımı)</string>
+    <string name="unite7">Ünite 7 (Veritabanı İşlemleri)</string>
+    <string name="unite8">Ünite 8 (Gelişmiş Uygulama Tasarlama)</string>
+    <string name="unite9">Ünite 9 (Uygulama Yayımlama)</string>
 
     <string name="u4_uyg1">Uygulama 1 ()</string>
     <string name="u4_uyg2">Uygulama 2 ()</string>
@@ -22,4 +24,20 @@
     <string name="u4_goldsoru1">GoldSoru 1 (Çarpım Tablosu)</string>
     <string name="u4_goldsoru2">GoldSoru 2 (Tek ve Çift Sayıları Topla)</string>
     <string name="u4_goldsoru3">GoldSoru 3 (Dünya Kupası Kura Çekimi)</string>
+
+
+    <string name="u5_uyg1">Uygulama 1 (Değer Döndürmeyen Metodlar)</string>
+    <string name="u5_uyg2">Uygulama 2 (Değer Döndüren Metotlar)</string>
+    <string name="u5_uyg3">Uygulama 3 ()</string>
+    <string name="u5_uyg4">Uygulama 4 ()</string>
+    <string name="u5_uyg5">Uygulama 5 ()</string>
+    <string name="u5_uyg6">Uygulama 6 ()</string>
+    <string name="u5_uyg7">Uygulama 7 ()</string>
+    <string name="u5_uyg8">Uygulama 8 ()</string>
+    <string name="u5_uyg9">Uygulama 9 ()</string>
+    <string name="u5_uyg10">Uygulama 10 ()</string>
+    <string name="u5_uyg11">Uygulama 11 ()</string>
+    <string name="u5_uyg12">Uygulama 12 ()</string>
+    <string name="u5_uyg13">Uygulama 13 ()</string>
+    <string name="u5_ss_165">Sıra Sizde 165.Sayfa</string>
 </resources>

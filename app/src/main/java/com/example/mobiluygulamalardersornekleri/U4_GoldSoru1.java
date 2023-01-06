@@ -14,7 +14,7 @@ public class U4_GoldSoru1 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.u2_goldsoru1);
+        setContentView(R.layout.u4_goldsoru1);
 
         txtSayi = findViewById(R.id.txtSayi);
         txtCarpimTablosu = findViewById(R.id.txtTorba1);
