@@ -17,7 +17,7 @@ public class U4_Uyg9 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u4_uyg9);
 
-        txtSayi = findViewById(R.id.txtSayi);
+        txtSayi = findViewById(R.id.txtSayi1);
         txtGosterge = findViewById(R.id.txtGosterge);
     }
 

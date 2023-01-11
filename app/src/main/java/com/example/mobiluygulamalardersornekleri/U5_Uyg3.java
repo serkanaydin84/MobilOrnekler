@@ -18,7 +18,7 @@ public class U5_Uyg3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u5_uyg2);
 
-        btn = findViewById(R.id.button);
+        btn = findViewById(R.id.btnOnayla);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

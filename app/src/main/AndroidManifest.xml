@@ -29,8 +29,12 @@
         <activity android:name=".Unite4" android:label="@string/unite4"></activity>
         <activity android:name=".Unite5" android:label="@string/unite5"></activity>
 
-
-
+        <activity android:name=".U4_Uyg1" android:label="@string/u4_uyg1"></activity>
+        <activity android:name=".U4_Uyg2" android:label="@string/u4_uyg2"></activity>
+        <activity android:name=".U4_Uyg3" android:label="@string/u4_uyg3"></activity>
+        <activity android:name=".U4_Uyg4" android:label="@string/u4_uyg4"></activity>
+        <activity android:name=".U4_Uyg5" android:label="@string/u4_uyg5"></activity>
+        <activity android:name=".U4_Uyg6" android:label="@string/u4_uyg6"></activity>
         <activity android:name=".U4_Uyg7" android:label="@string/u4_uyg7"></activity>
         <activity android:name=".U4_Uyg8" android:label="@string/u4_uyg8"></activity>
         <activity android:name=".U4_Uyg9" android:label="@string/u4_uyg9"></activity>

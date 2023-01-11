@@ -18,7 +18,7 @@ public class U5_Uyg2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u5_uyg2);
 
-        btn = findViewById(R.id.button);
+        btn = findViewById(R.id.btnOnayla);
         txtSayi1 = findViewById(R.id.txtSayi1);
         txtSayi2 = findViewById(R.id.txtSayi2);
 

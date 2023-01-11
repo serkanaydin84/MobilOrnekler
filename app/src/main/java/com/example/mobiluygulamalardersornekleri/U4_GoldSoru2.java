@@ -17,7 +17,7 @@ public class U4_GoldSoru2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u4_goldsoru2);
 
-        txtSayi = findViewById(R.id.txtSayi);
+        txtSayi = findViewById(R.id.txtSayi1);
         txtCift = findViewById(R.id.txtTorba2);
         txtTek = findViewById(R.id.txtTorba1);
     }

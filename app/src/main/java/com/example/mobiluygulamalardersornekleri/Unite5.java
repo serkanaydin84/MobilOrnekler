@@ -25,7 +25,7 @@ public class Unite5 extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void btnUyg5_SS165(View view){
+    public void btn_SS165(View view){
         Intent i = new Intent(Unite5.this, U5_SS_165.class);
         startActivity(i);
     }

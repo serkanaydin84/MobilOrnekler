@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/txtSayi"
+        android:id="@+id/txtSayi1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -25,7 +25,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnCift"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtSayi">
+        app:layout_constraintTop_toBottomOf="@+id/txtSayi1">
 
         <EditText
             android:id="@+id/txtGosterge"

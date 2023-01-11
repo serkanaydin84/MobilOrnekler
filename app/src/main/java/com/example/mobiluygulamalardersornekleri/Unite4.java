@@ -15,6 +15,36 @@ public class Unite4 extends AppCompatActivity {
         setContentView(R.layout.unite4);
     }
 
+    public void btnU4Uyg1 (View view) {
+        Intent i = new Intent(Unite4.this, U4_Uyg1.class);
+        startActivity(i);
+    }
+
+    public void btnU4Uyg2 (View view) {
+        Intent i = new Intent(Unite4.this, U4_Uyg2.class);
+        startActivity(i);
+    }
+
+    public void btnU4Uyg3 (View view) {
+        Intent i = new Intent(Unite4.this, U4_Uyg3.class);
+        startActivity(i);
+    }
+
+    public void btnU4Uyg4 (View view) {
+        Intent i = new Intent(Unite4.this, U4_Uyg4.class);
+        startActivity(i);
+    }
+
+    public void btnU4Uyg5 (View view) {
+        Intent i = new Intent(Unite4.this, U4_Uyg5.class);
+        startActivity(i);
+    }
+
+    public void btnU4Uyg6 (View view) {
+        Intent i = new Intent(Unite4.this, U4_Uyg6.class);
+        startActivity(i);
+    }
+
     public void btnU4Uyg7 (View view) {
         Intent i = new Intent(Unite4.this, U4_Uyg7.class);
         startActivity(i);
