@@ -9,13 +9,13 @@
         android:id="@+id/txtSayi1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
-        android:hint="Bir sayı giriniz"
+        android:hint="1.Sayıyı Giriniz."
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,49 +23,47 @@
         android:id="@+id/txtSayi2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
-        android:hint="Bir sayı giriniz"
+        android:hint="2.Sayıyı Giriniz."
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnTopla"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:onClick="kontrolEt"
-        android:text="Kontrol Et"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtSayi1" />
-
-    <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/btn2Topla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="1.Sayı: "
-        android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/txtSayi1"
-        app:layout_constraintHorizontal_bias="0.304"
+        android:text="Topla"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/txtSayi2" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:text="2.Sayı: "
-        android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/txtSayi2"
-        app:layout_constraintHorizontal_bias="0.304"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="84dp"
+        android:text="Sonuç: "
+        android:textColor="@color/red"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btn2Topla" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/btn2Topla" />
 </androidx.constraintlayout.widget.ConstraintLayout>

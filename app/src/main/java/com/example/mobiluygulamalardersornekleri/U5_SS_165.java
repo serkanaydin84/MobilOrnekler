@@ -17,7 +17,7 @@ public class U5_SS_165 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u5_ss_165);
 
-        btn = findViewById(R.id.btnOnayla);
+        btn = findViewById(R.id.btnTopla);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

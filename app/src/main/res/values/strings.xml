@@ -30,8 +30,8 @@
     <string name="u5_uyg1">Uygulama 1 \n(Değer Döndürmeyen Metodlar)</string>
     <string name="u5_uyg2">Uygulama 2 \n(Değer Döndüren Metotlar)</string>
     <string name="u5_uyg3">Uygulama 3 \n()</string>
-    <string name="u5_uyg4">Uygulama 4 \n()</string>
-    <string name="u5_uyg5">Uygulama 5 \n()</string>
+    <string name="u5_uyg4">Uygulama 4 \n(Metodlarda Aşırı Yükleme)</string>
+    <string name="u5_uyg5">Uygulama 5 \n(Sınıflar)</string>
     <string name="u5_uyg6">Uygulama 6 \n()</string>
     <string name="u5_uyg7">Uygulama 7 \n()</string>
     <string name="u5_uyg8">Uygulama 8 \n()</string>
@@ -41,4 +41,6 @@
     <string name="u5_uyg12">Uygulama 12 \n()</string>
     <string name="u5_uyg13">Uygulama 13 \n()</string>
     <string name="u5_ss_165">Sıra Sizde 165.Sayfa \n(İki Sayıyı Toplayan Metod)</string>
+    <string name="u5_ss_169">Sıra Sizde 169.Sayfa \n(Dört İşlem Metodlu)</string>
+    <string name="u5_ss_173">Sıra Sizde 173.Sayfa \n(Metodlarda Aşırı Yükleme)</string>
 </resources>

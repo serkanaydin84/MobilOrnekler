@@ -18,9 +18,7 @@ public class U5_Uyg2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u5_uyg2);
 
-        btn = findViewById(R.id.btnOnayla);
-        txtSayi1 = findViewById(R.id.txtSayi1);
-        txtSayi2 = findViewById(R.id.txtSayi2);
+        btn = findViewById(R.id.btnTopla);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,8 +30,6 @@ public class U5_Uyg2 extends AppCompatActivity {
     }
 
     private int topla() {
-        int s1 = Integer.parseInt(txtSayi1.getText().toString());
-        int s2 = Integer.parseInt(txtSayi2.getText().toString());
-        return s1 + s2;
+        return 5 + 10;
     }
 }

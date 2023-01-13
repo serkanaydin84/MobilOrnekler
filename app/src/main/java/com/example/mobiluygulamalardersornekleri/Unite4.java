@@ -16,7 +16,7 @@ public class Unite4 extends AppCompatActivity {
     }
 
     public void btnU4Uyg1 (View view) {
-        Intent i = new Intent(Unite4.this, U4_Uyg1.class);
+        Intent i = new Intent(Unite4.this, U4_Uyg1Activity.class);
         startActivity(i);
     }
 

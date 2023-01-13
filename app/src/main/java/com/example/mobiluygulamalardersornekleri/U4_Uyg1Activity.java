@@ -8,7 +8,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class U4_Uyg1 extends AppCompatActivity {
+public class U4_Uyg1Activity extends AppCompatActivity {
     EditText txtNot;
 
     @Override
