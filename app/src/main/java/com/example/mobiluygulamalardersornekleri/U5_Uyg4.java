@@ -22,7 +22,7 @@ public class U5_Uyg4 extends AppCompatActivity {
         txt1 = findViewById(R.id.txtSayi1);
         txt2 = findViewById(R.id.txtSayi2);
         txt3 = findViewById(R.id.txtSayi3);
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.textViewK1);
         btn2SayiTopla = findViewById(R.id.btn2Topla);
         btn3SayiTopla = findViewById(R.id.btn3Topla);
 

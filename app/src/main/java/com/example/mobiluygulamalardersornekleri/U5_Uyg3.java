@@ -21,7 +21,7 @@ public class U5_Uyg3 extends AppCompatActivity {
 
         txtSayi1 = findViewById(R.id.txtSayi1);
         txtSayi2 = findViewById(R.id.txtSayi2);
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.textViewK1);
         btn = findViewById(R.id.btnTopla);
 
         btn.setOnClickListener(new View.OnClickListener() {

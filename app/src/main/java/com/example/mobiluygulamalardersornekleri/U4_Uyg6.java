@@ -17,7 +17,7 @@ public class U4_Uyg6 extends AppCompatActivity {
         setContentView(R.layout.u4_uyg6);
 
         txtAy = findViewById(R.id.txtAy);
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.textViewK1);
     }
 
     public void btnOnayla(View view) {
