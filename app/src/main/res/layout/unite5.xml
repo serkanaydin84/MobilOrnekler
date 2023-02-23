@@ -20,113 +20,126 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:scrollbars="vertical">
 
-            <Button
-                android:id="@+id/btnUyg1"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg1"
-                android:text="@string/u5_uyg1" />
+                android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/btnUyg2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg2"
-                android:text="@string/u5_uyg2" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/btnUyg3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg3"
-                android:text="@string/u5_uyg3" />
+                    <Button
+                        android:id="@+id/btnUyg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg1"
+                        android:text="@string/u5_uyg1" />
 
-            <Button
-                android:id="@+id/btnUyg4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg4"
-                android:text="@string/u5_uyg4" />
+                    <Button
+                        android:id="@+id/btnUyg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg2"
+                        android:text="@string/u5_uyg2" />
 
-            <Button
-                android:id="@+id/btnUyg5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg5"
-                android:text="@string/u5_uyg5" />
+                    <Button
+                        android:id="@+id/btnUyg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg3"
+                        android:text="@string/u5_uyg3" />
 
-            <Button
-                android:id="@+id/btnUyg6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg6"
-                android:text="@string/u5_uyg6" />
+                    <Button
+                        android:id="@+id/btnUyg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg4"
+                        android:text="@string/u5_uyg4" />
 
-            <Button
-                android:id="@+id/btnUyg7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg7"
-                android:text="@string/u5_uyg7" />
+                    <Button
+                        android:id="@+id/btnUyg5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg5"
+                        android:text="@string/u5_uyg5" />
 
-            <Button
-                android:id="@+id/btnUyg8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg8"
-                android:text="@string/u5_uyg8" />
+                    <Button
+                        android:id="@+id/btnUyg6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg6"
+                        android:text="@string/u5_uyg6" />
 
-            <Button
-                android:id="@+id/btnUyg9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg9"
-                android:text="@string/u5_uyg9" />
+                    <Button
+                        android:id="@+id/btnUyg7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg7"
+                        android:text="@string/u5_uyg7" />
 
-            <Button
-                android:id="@+id/btnUyg10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg10"
-                android:text="@string/u5_uyg10" />
+                    <Button
+                        android:id="@+id/btnUyg8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg8"
+                        android:text="@string/u5_uyg8" />
 
-            <Button
-                android:id="@+id/btnUyg11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg11"
-                android:text="@string/u5_uyg11" />
+                    <Button
+                        android:id="@+id/btnUyg9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg9"
+                        android:text="@string/u5_uyg9" />
 
-            <Button
-                android:id="@+id/btnUyg12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:minHeight="48dp"
-                android:onClick="btnUyg12"
-                android:text="@string/u5_uyg12"
-                tools:ignore="TouchTargetSizeCheck" />
+                    <Button
+                        android:id="@+id/btnUyg10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg10"
+                        android:text="@string/u5_uyg10" />
 
-            <Button
-                android:id="@+id/btnUyg13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:onClick="btnUyg13"
-                android:text="@string/u5_uyg13" />
+                    <Button
+                        android:id="@+id/btnUyg11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:minHeight="48dp"
+                        android:onClick="btnUyg11"
+                        android:text="@string/u5_uyg11" />
+
+                    <Button
+                        android:id="@+id/btnUyg12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:minHeight="48dp"
+                        android:onClick="btnUyg12"
+                        android:text="@string/u5_uyg12"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/btnUyg13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:onClick="btnUyg13"
+                        android:text="@string/u5_uyg13" />
+                </LinearLayout>
+            </ScrollView>
 
         </LinearLayout>
 
@@ -136,35 +149,46 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btn_SS165"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:backgroundTint="@color/orange"
-                android:onClick="btn_SS165"
-                android:text="@string/u5_ss_165"
-                android:textColor="@color/black" />
+                android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/btn_SS169"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:backgroundTint="@color/orange"
-                android:onClick="btn_SS169"
-                android:text="@string/u5_ss_169"
-                android:textColor="@color/black" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/btn_SS173"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:backgroundTint="@color/orange"
-                android:onClick="btn_SS173"
-                android:text="@string/u5_ss_173"
-                android:textColor="@color/black" />
+                    <Button
+                        android:id="@+id/btn_SS173"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/orange"
+                        android:onClick="btn_SS173"
+                        android:text="@string/u5_ss_173"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_SS165"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/orange"
+                        android:onClick="btn_SS165"
+                        android:text="@string/u5_ss_165"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_SS169"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/orange"
+                        android:onClick="btn_SS169"
+                        android:text="@string/u5_ss_169"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </ScrollView>
 
         </LinearLayout>
     </LinearLayout>
