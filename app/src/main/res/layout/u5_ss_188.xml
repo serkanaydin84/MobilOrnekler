@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtKenar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="1.kenarı giriniz"
+        android:inputType="number"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="101dp" />
+
+    <EditText
+        android:id="@+id/txtKenar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="2.kenarı giriniz"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/txtKenar1"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <EditText
+        android:id="@+id/txtKenar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="3.kenarı giriniz"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKenar2" />
+
+    <Button
+        android:id="@+id/btnEsKenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Eşkenar Üçgen"
+        app:layout_constraintTop_toBottomOf="@+id/txtKenar3"
+        tools:layout_editor_absoluteX="126dp" />
+
+    <Button
+        android:id="@+id/btnIkizKenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İkizkenar Üçgen"
+        app:layout_constraintTop_toBottomOf="@+id/btnEsKenar"
+        tools:layout_editor_absoluteX="121dp" />
+
+    <Button
+        android:id="@+id/btnCokKenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÇokKenar Üçgen"
+        app:layout_constraintTop_toBottomOf="@+id/btnIkizKenar"
+        tools:layout_editor_absoluteX="120dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/red"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCokKenar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

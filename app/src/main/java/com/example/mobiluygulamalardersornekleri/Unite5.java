@@ -39,7 +39,12 @@ public class Unite5 extends AppCompatActivity {
     }
 
     public void btnUyg5(View view) {
-        Intent i = new Intent(Unite5.this, U5_Uyg5Activity.class);
+        Intent i = new Intent(Unite5.this, U5_Uyg5.class);
+        startActivity(i);
+    }
+
+    public void btnUyg6(View view) {
+        Intent i = new Intent(Unite5.this, U5_Uyg6.class);
         startActivity(i);
     }
 
@@ -59,6 +64,11 @@ public class Unite5 extends AppCompatActivity {
 
     public void btn_SS173(View view){
         Intent i = new Intent(Unite5.this, U5_SS_173.class);
+        startActivity(i);
+    }
+
+    public void btn_SS188(View view){
+        Intent i = new Intent(Unite5.this, U5_SS_188.class);
         startActivity(i);
     }
 }
