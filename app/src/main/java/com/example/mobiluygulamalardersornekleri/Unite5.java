@@ -48,6 +48,11 @@ public class Unite5 extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void btnUyg7(View view) {
+        Intent i = new Intent(Unite5.this, U5_Uyg7.class);
+        startActivity(i);
+    }
+
 
     // *****************************************************************
     // SIRA SİZDE UYGULAMALARI

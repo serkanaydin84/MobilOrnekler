@@ -12,8 +12,9 @@
         android:ems="10"
         android:hint="1.kenarı giriniz"
         android:inputType="number"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="101dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtKenar2"
@@ -22,8 +23,9 @@
         android:ems="10"
         android:hint="2.kenarı giriniz"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@+id/txtKenar1"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKenar1" />
 
     <EditText
         android:id="@+id/txtKenar3"
@@ -42,24 +44,27 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
         android:text="Eşkenar Üçgen"
-        app:layout_constraintTop_toBottomOf="@+id/txtKenar3"
-        tools:layout_editor_absoluteX="126dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKenar3" />
 
     <Button
         android:id="@+id/btnIkizKenar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="İkizkenar Üçgen"
-        app:layout_constraintTop_toBottomOf="@+id/btnEsKenar"
-        tools:layout_editor_absoluteX="121dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEsKenar" />
 
     <Button
         android:id="@+id/btnCokKenar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ÇokKenar Üçgen"
-        app:layout_constraintTop_toBottomOf="@+id/btnIkizKenar"
-        tools:layout_editor_absoluteX="120dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIkizKenar" />
 
     <TextView
         android:id="@+id/textView"
