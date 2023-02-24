@@ -3,7 +3,10 @@ package com.example.mobiluygulamalardersornekleri;
 import android.util.Log;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class U5_Uyg7_Personel {
+
     public int yas;
 
     public int getYas() {
