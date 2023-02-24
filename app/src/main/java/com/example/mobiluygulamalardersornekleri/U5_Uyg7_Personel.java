@@ -11,9 +11,9 @@ public class U5_Uyg7_Personel {
     }
 
     public void setYas(int yas) {
-        if (yas < 18 || yas > 55) {
+        if (yas < 15 || yas > 55) {
             Log.e("Kapsülleme", "Hatalı Yaş");
-            yas = 18;
+            yas = 15;
         }
         this.yas = yas;
     }
