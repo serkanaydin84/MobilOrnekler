@@ -8,6 +8,20 @@ import androidx.appcompat.app.AppCompatActivity;
 public class U5_Uyg7_Personel {
 
     public int yas;
+    public int maas;
+
+    public int getMaas() {
+        return maas;
+    }
+
+    public void setMaas(int maas) {
+        if (maas < 4253) {
+            Log.e("Kapsülleme", "Hatalı Maaş Girişi");
+            maas = 4253;
+        }
+        this.maas = maas;
+    }
+
 
     public int getYas() {
         return yas;

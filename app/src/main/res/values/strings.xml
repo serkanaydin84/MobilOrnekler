@@ -33,9 +33,9 @@
     <string name="u5_uyg4">Uygulama 4 \n(Metodlarda Aşırı Yükleme)</string>
     <string name="u5_uyg5">Uygulama 5 \n(Sınıflar)</string>
     <string name="u5_uyg6">Uygulama 6 \n(Constructor)</string>
-    <string name="u5_uyg7">Uygulama 7 \n(Getter ve Setter)</string>
-    <string name="u5_uyg8">Uygulama 8 \n()</string>
-    <string name="u5_uyg9">Uygulama 9 \n()</string>
+    <string name="u5_uyg7">Uygulama 7 \n(Kapsülleme)</string>
+    <string name="u5_uyg8">Uygulama 8 \n(Kalıtım)</string>
+    <string name="u5_uyg9">Uygulama 9 \n(Kalıtım-2)</string>
     <string name="u5_uyg10">Uygulama 10 \n()</string>
     <string name="u5_uyg11">Uygulama 11 \n()</string>
     <string name="u5_uyg12">Uygulama 12 \n()</string>
@@ -45,4 +45,5 @@
     <string name="u5_ss_173">Sıra Sizde 173.Sayfa \n(Metodlarda Aşırı Yükleme)</string>
     <string name="u5_ss_181">Sıra Sizde 181.Sayfa \n(Sınıf Yapısı)</string>
     <string name="u5_ss_188">Sıra Sizde 188.Sayfa \n(Constructor)</string>
+    <string name="u5_ss_193">Sıra Sizde 193.Sayfa \n(Getter - Setter)</string>
 </resources>

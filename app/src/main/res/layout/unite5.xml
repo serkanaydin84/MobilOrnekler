@@ -197,6 +197,16 @@
                         android:onClick="btn_SS188"
                         android:text="@string/u5_ss_188"
                         android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_SS_193"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/orange"
+                        android:onClick="btn_SS193"
+                        android:text="@string/u5_ss_193"
+                        android:textColor="@color/black" />
                 </LinearLayout>
             </ScrollView>
 

@@ -53,6 +53,11 @@ public class Unite5 extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void btnUyg8(View view) {
+        Intent i = new Intent(Unite5.this, U5_Uyg8.class);
+        startActivity(i);
+    }
+
 
     // *****************************************************************
     // SIRA SİZDE UYGULAMALARI
@@ -74,6 +79,11 @@ public class Unite5 extends AppCompatActivity {
 
     public void btn_SS188(View view){
         Intent i = new Intent(Unite5.this, U5_SS_188.class);
+        startActivity(i);
+    }
+
+    public void btn_SS193(View view){
+        Intent i = new Intent(Unite5.this, U5_SS_193.class);
         startActivity(i);
     }
 }
