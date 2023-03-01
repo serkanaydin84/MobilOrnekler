@@ -51,8 +51,8 @@
         <activity android:name=".U5_Uyg5" android:label="@string/u5_uyg5"></activity>
         <activity android:name=".U5_Uyg6" android:label="@string/u5_uyg6"></activity>
         <activity android:name=".U5_Uyg7" android:label="@string/u5_uyg7"></activity>
-        <activity android:name=".U5_Uyg8" android:label="@string/u5_uyg8"></activity>
-        <activity android:name=".U5_Uyg9" android:label="@string/u5_uyg9"></activity>
+        <activity android:name=".unite5.uyg8.U5_Uyg8" android:label="@string/u5_uyg8"></activity>
+        <activity android:name=".unite5.uyg9.U5_Uyg9" android:label="@string/u5_uyg9"></activity>
         <activity android:name=".U5_SS_165" android:label="@string/u5_ss_165"></activity>
         <activity android:name=".U5_SS_169" android:label="@string/u5_ss_169"></activity>
         <activity android:name=".U5_SS_173" android:label="@string/u5_ss_173"></activity>

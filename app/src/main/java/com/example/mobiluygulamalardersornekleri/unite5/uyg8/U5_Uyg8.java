@@ -1,4 +1,4 @@
-package com.example.mobiluygulamalardersornekleri;
+package com.example.mobiluygulamalardersornekleri.unite5.uyg8;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.mobiluygulamalardersornekleri.R;
 
 public class U5_Uyg8 extends AppCompatActivity {
 

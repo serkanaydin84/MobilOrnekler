@@ -7,6 +7,8 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.mobiluygulamalardersornekleri.unite5.uyg8.U5_Uyg8;
+
 public class Unite5 extends AppCompatActivity {
 
     @Override
