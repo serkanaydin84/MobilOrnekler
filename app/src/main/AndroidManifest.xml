@@ -26,39 +26,52 @@
                 android:value="" />
         </activity>
 
+        <activity android:name=".Unite1" android:label="@string/unite1"></activity>
+        <activity android:name=".Unite2" android:label="@string/unite2"></activity>
+        <activity android:name=".Unite3" android:label="@string/unite3"></activity>
         <activity android:name=".Unite4" android:label="@string/unite4"></activity>
         <activity android:name=".Unite5" android:label="@string/unite5"></activity>
+        <activity android:name=".Unite6" android:label="@string/unite6"></activity>
+        <activity android:name=".Unite7" android:label="@string/unite7"></activity>
+        <activity android:name=".Unite8" android:label="@string/unite8"></activity>
+        <activity android:name=".Unite9" android:label="@string/unite9"></activity>
 
-        <activity android:name=".U4_Uyg1Activity" android:label="@string/u4_uyg1"></activity>
-        <activity android:name=".U4_Uyg2" android:label="@string/u4_uyg2"></activity>
-        <activity android:name=".U4_Uyg3" android:label="@string/u4_uyg3"></activity>
-        <activity android:name=".U4_Uyg4" android:label="@string/u4_uyg4"></activity>
-        <activity android:name=".U4_Uyg5" android:label="@string/u4_uyg5"></activity>
-        <activity android:name=".U4_Uyg6" android:label="@string/u4_uyg6"></activity>
-        <activity android:name=".U4_Uyg7" android:label="@string/u4_uyg7"></activity>
-        <activity android:name=".U4_Uyg8" android:label="@string/u4_uyg8"></activity>
-        <activity android:name=".U4_Uyg9" android:label="@string/u4_uyg9"></activity>
-        <activity android:name=".U4_Uyg10" android:label="@string/u4_uyg10"></activity>
-        <activity android:name=".U4_GoldSoru1" android:label="@string/u4_goldsoru1"></activity>
-        <activity android:name=".U4_GoldSoru2" android:label="@string/u4_goldsoru2"></activity>
-        <activity android:name=".U4_GoldSoru3" android:label="@string/u4_goldsoru3"></activity>
+        <activity android:name=".unite4.uyg1.Uyg1" android:label="@string/u4_uyg1"></activity>
+        <activity android:name=".unite4.uyg2.Uyg2" android:label="@string/u4_uyg2"></activity>
+        <activity android:name=".unite4.uyg3.Uyg3" android:label="@string/u4_uyg3"></activity>
+        <activity android:name=".unite4.uyg4.Uyg4" android:label="@string/u4_uyg4"></activity>
+        <activity android:name=".unite4.uyg5.Uyg5" android:label="@string/u4_uyg5"></activity>
+        <activity android:name=".unite4.uyg6.Uyg6" android:label="@string/u4_uyg6"></activity>
+        <activity android:name=".unite4.uyg7.Uyg7" android:label="@string/u4_uyg7"></activity>
+        <activity android:name=".unite4.uyg8.Uyg8" android:label="@string/u4_uyg8"></activity>
+        <activity android:name=".unite4.uyg9.Uyg9" android:label="@string/u4_uyg9"></activity>
+        <activity android:name=".unite4.uyg10.Uyg10" android:label="@string/u4_uyg10"></activity>
+        <activity android:name=".unite4.GoldSoru1" android:label="@string/u4_goldsoru1"></activity>
+        <activity android:name=".unite4.GoldSoru2" android:label="@string/u4_goldsoru2"></activity>
+        <activity android:name=".unite4.GoldSoru3" android:label="@string/u4_goldsoru3"></activity>
 
 
-        <activity android:name=".U5_Uyg1" android:label="@string/u5_uyg1"></activity>
-        <activity android:name=".U5_Uyg2" android:label="@string/u5_uyg2"></activity>
-        <activity android:name=".U5_Uyg3" android:label="@string/u5_uyg3"></activity>
-        <activity android:name=".U5_Uyg4" android:label="@string/u5_uyg4"></activity>
-        <activity android:name=".U5_Uyg5" android:label="@string/u5_uyg5"></activity>
-        <activity android:name=".U5_Uyg6" android:label="@string/u5_uyg6"></activity>
-        <activity android:name=".U5_Uyg7" android:label="@string/u5_uyg7"></activity>
-        <activity android:name=".unite5.uyg8.U5_Uyg8" android:label="@string/u5_uyg8"></activity>
-        <activity android:name=".unite5.uyg9.U5_Uyg9" android:label="@string/u5_uyg9"></activity>
-        <activity android:name=".U5_SS_165" android:label="@string/u5_ss_165"></activity>
-        <activity android:name=".U5_SS_169" android:label="@string/u5_ss_169"></activity>
-        <activity android:name=".U5_SS_173" android:label="@string/u5_ss_173"></activity>
-        <activity android:name=".U5_SS_181" android:label="@string/u5_ss_181"></activity>
-        <activity android:name=".U5_SS_188" android:label="@string/u5_ss_188"></activity>
-        <activity android:name=".U5_SS_193" android:label="@string/u5_ss_193"></activity>
+        <activity android:name=".unite5.uyg1.Uyg1" android:label="@string/u5_uyg1"></activity>
+        <activity android:name=".unite5.uyg2.Uyg2" android:label="@string/u5_uyg2"></activity>
+        <activity android:name=".unite5.uyg3.Uyg3" android:label="@string/u5_uyg3"></activity>
+        <activity android:name=".unite5.uyg4.Uyg4" android:label="@string/u5_uyg4"></activity>
+        <activity android:name=".unite5.uyg5.Uyg5" android:label="@string/u5_uyg5"></activity>
+        <activity android:name=".unite5.uyg6.Uyg6" android:label="@string/u5_uyg6"></activity>
+        <activity android:name=".unite5.uyg7.Uyg7" android:label="@string/u5_uyg7"></activity>
+        <activity android:name=".unite5.uyg8.Uyg8" android:label="@string/u5_uyg8"></activity>
+        <activity android:name=".unite5.uyg9.Uyg9" android:label="@string/u5_uyg9"></activity>
+        <activity android:name=".unite5.uyg10.Uyg10" android:label="@string/u5_uyg10"></activity>
+        <activity android:name=".unite5.uyg11.Uyg11" android:label="@string/u5_uyg11"></activity>
+        <activity android:name=".unite5.uyg12.Uyg12" android:label="@string/u5_uyg12"></activity>
+        <activity android:name=".unite5.uyg13.Uyg13" android:label="@string/u5_uyg13"></activity>
+        <activity android:name=".unite5.SS_165" android:label="@string/u5_ss_165"></activity>
+        <activity android:name=".unite5.SS_169" android:label="@string/u5_ss_169"></activity>
+        <activity android:name=".unite5.SS_173" android:label="@string/u5_ss_173"></activity>
+        <activity android:name=".unite5.SS_181" android:label="@string/u5_ss_181"></activity>
+        <activity android:name=".unite5.SS_188" android:label="@string/u5_ss_188"></activity>
+        <activity android:name=".unite5.SS_193" android:label="@string/u5_ss_193"></activity>
+        <activity android:name=".unite5.SS_206" android:label="@string/u5_ss_206"></activity>
+        <activity android:name=".unite5.SS_214" android:label="@string/u5_ss_214"></activity>
     </application>
 
 </manifest>

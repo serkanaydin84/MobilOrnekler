@@ -207,6 +207,26 @@
                         android:onClick="btn_SS193"
                         android:text="@string/u5_ss_193"
                         android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_SS_206"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/orange"
+                        android:onClick="btn_SS206"
+                        android:text="@string/u5_ss_206"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_SS_214"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/orange"
+                        android:onClick="btn_SS214"
+                        android:text="@string/u5_ss_214"
+                        android:textColor="@color/black" />
                 </LinearLayout>
             </ScrollView>
 
