@@ -19,6 +19,7 @@ public class Uyg12 extends AppCompatActivity {
     Button btnEkle;
     EditText txtAdlar;
     ListView listAdlar;
+
     ArrayList<String> isimlerListesi = new ArrayList<>();
     ArrayAdapter<String> adapter;
 
@@ -29,7 +30,7 @@ public class Uyg12 extends AppCompatActivity {
 
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, isimlerListesi);
         btnEkle = findViewById(R.id.btnEkle);
-        txtAdlar = findViewById(R.id.txtAd);
+        txtAdlar = findViewById(R.id.txtOgrAd);
         listAdlar = findViewById(R.id.listAdlar);
 
         listAdlar.setAdapter(adapter);

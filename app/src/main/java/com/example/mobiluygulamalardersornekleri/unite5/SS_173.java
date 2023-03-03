@@ -21,7 +21,7 @@ public class SS_173 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u5_ss_173);
 
-        txtAd = findViewById(R.id.txtAd);
+        txtAd = findViewById(R.id.txtOgrAd);
         txtSoyad = findViewById(R.id.txtSoyad);
 
         btnMerhaba1 = findViewById(R.id.btnMerhaba1);

@@ -34,13 +34,13 @@ public class Uyg8 extends AppCompatActivity {
 
         // Araba nesnesi oluşturuluyor
         Araba araba = new Araba();
-        araba.setKapiSayisi(5);
-        araba.setMaksimumHiz(220);
+        araba.setKapiSayisi(4);
+        araba.setMaksimumHiz(160);
 
         // Minibüs nesnesi oluşturuluyor
         Minibus minibus = new Minibus();
         minibus.setKapiSayisi(3);
-        minibus.setMaksimumHiz(170);
+        minibus.setMaksimumHiz(120);
 
         btnArabaKapi.setOnClickListener(new View.OnClickListener() {
             @Override

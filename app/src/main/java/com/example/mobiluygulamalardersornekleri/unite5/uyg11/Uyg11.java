@@ -31,8 +31,7 @@ public class Uyg11 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (indis < 6) {
-                    int sayi;
-                    sayi = Integer.parseInt(txtTextSayi.getText().toString());
+                    int sayi = Integer.parseInt(txtTextSayi.getText().toString());
                     notlar[indis] = sayi;
                     indis++;
                     textViewIndis.setText("İndis: " + Integer.toString(indis));
@@ -53,6 +52,7 @@ public class Uyg11 extends AppCompatActivity {
                 textViewIndis.setText("İndis: 0");
                 textViewToplam.setText("Toplam: 0");
                 notlar = new Integer[6];
+                txtTextSayi.getText().clear();
             }
         });
     }
