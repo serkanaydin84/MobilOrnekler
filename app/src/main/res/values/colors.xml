@@ -12,6 +12,7 @@
     <color name="gold">#FFFFD700</color>
     <color name="orange">#FFFFA500</color>
     <color name="green">#FF00a000</color>
+    <color name="light_greeen">#FF90EE90</color>
     <color name="blue">#FF0000FF</color>
     <color name="pink">#FFFF1493</color>
 </resources>

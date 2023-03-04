@@ -22,7 +22,7 @@
         android:id="@+id/btnU2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/teal_200"
         android:text="@string/unite2"
         android:textColor="@color/black"
@@ -34,12 +34,11 @@
         android:id="@+id/btnU3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="108dp"
         android:backgroundTint="@color/gold"
         android:text="@string/unite3"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,11 +46,13 @@
         android:id="@+id/btnU6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
-        android:backgroundTint="@color/green"
+        android:layout_marginTop="256dp"
+        android:backgroundTint="@color/light_greeen"
+        android:onClick="unite6Goster"
         android:text="@string/unite6"
-        android:visibility="gone"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -96,12 +97,13 @@
         android:id="@+id/btnU4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="156dp"
         android:backgroundTint="@color/teal_200"
         android:onClick="unite4Goster"
         android:text="@string/unite4"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -109,13 +111,14 @@
         android:id="@+id/btnU5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="208dp"
         android:backgroundTint="@color/orange"
         android:onClick="unite5Goster"
         android:text="@string/unite5"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

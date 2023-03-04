@@ -36,6 +36,10 @@
         <activity android:name=".Unite8" android:label="@string/unite8"></activity>
         <activity android:name=".Unite9" android:label="@string/unite9"></activity>
 
+
+        <!-- ********************************************************** -->
+        <!-- **************** ÜNİTE 4 TANIMLAMALARI ******************* -->
+        <!-- ********************************************************** -->
         <activity android:name=".unite4.uyg1.Uyg1" android:label="@string/u4_uyg1"></activity>
         <activity android:name=".unite4.uyg2.Uyg2" android:label="@string/u4_uyg2"></activity>
         <activity android:name=".unite4.uyg3.Uyg3" android:label="@string/u4_uyg3"></activity>
@@ -51,6 +55,9 @@
         <activity android:name=".unite4.GoldSoru3" android:label="@string/u4_goldsoru3"></activity>
 
 
+        <!-- ********************************************************** -->
+        <!-- **************** ÜNİTE 5 TANIMLAMALARI ******************* -->
+        <!-- ********************************************************** -->
         <activity android:name=".unite5.uyg1.Uyg1" android:label="@string/u5_uyg1"></activity>
         <activity android:name=".unite5.uyg2.Uyg2" android:label="@string/u5_uyg2"></activity>
         <activity android:name=".unite5.uyg3.Uyg3" android:label="@string/u5_uyg3"></activity>
@@ -72,6 +79,11 @@
         <activity android:name=".unite5.SS_193" android:label="@string/u5_ss_193"></activity>
         <activity android:name=".unite5.SS_206" android:label="@string/u5_ss_206"></activity>
         <activity android:name=".unite5.SS_214" android:label="@string/u5_ss_214"></activity>
+
+        <!-- ********************************************************** -->
+        <!-- **************** ÜNİTE 6 TANIMLAMALARI ******************* -->
+        <!-- ********************************************************** -->
+        <activity android:name=".unite6.uyg1.Uyg1" android:label="@string/u6_uyg1"></activity>
     </application>
 
 </manifest>

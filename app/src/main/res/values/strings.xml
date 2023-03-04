@@ -12,6 +12,9 @@
     <string name="unite8">Ünite 8 (Gelişmiş Uygulama Tasarlama)</string>
     <string name="unite9">Ünite 9 (Uygulama Yayımlama)</string>
 
+    <!-- ********************************************************** -->
+    <!-- **************** ÜNİTE 4 TANIMLAMALARI ******************* -->
+    <!-- ********************************************************** -->
     <string name="u4_uyg1">Uygulama 1 \n(100 den Büyük mü)</string>
     <string name="u4_uyg2">Uygulama 2 \n(Hangisi Büyük)</string>
     <string name="u4_uyg3">Uygulama 3 \n(Login İşlemi)</string>
@@ -26,7 +29,9 @@
     <string name="u4_goldsoru2">GoldSoru 2 \n(Tek ve Çift Sayıları Topla)</string>
     <string name="u4_goldsoru3">GoldSoru 3 \n(Dünya Kupası Kura Çekimi)</string>
 
-
+    <!-- ********************************************************** -->
+    <!-- **************** ÜNİTE 5 TANIMLAMALARI ******************* -->
+    <!-- ********************************************************** -->
     <string name="u5_uyg1">Uygulama 1 \n(Değer Döndürmeyen Metodlar)</string>
     <string name="u5_uyg2">Uygulama 2 \n(Değer Döndüren Metotlar)</string>
     <string name="u5_uyg3">Uygulama 3 \n(Parametre Alan Metotlar)</string>
@@ -48,4 +53,21 @@
     <string name="u5_ss_193">Sıra Sizde 193.Sayfa \n(Getter - Setter)</string>
     <string name="u5_ss_206">Sıra Sizde 206.Sayfa \n(Çokbiçimlilik)</string>
     <string name="u5_ss_214">Sıra Sizde 214.Sayfa \n(ArrayList)</string>
+
+
+    <!-- ********************************************************** -->
+    <!-- **************** ÜNİTE 6 TANIMLAMALARI ******************* -->
+    <!-- ********************************************************** -->
+    <string name="u6_uyg1">Uygulama 1 \n(Görsel Değiştir)</string>
+    <string name="u6_uyg2">Uygulama 2 \n()</string>
+    <string name="u6_uyg3">Uygulama 3 \n()</string>
+    <string name="u6_uyg4">Uygulama 4 \n()</string>
+    <string name="u6_uyg5">Uygulama 5 \n()</string>
+    <string name="u6_uyg6">Uygulama 6 \n()</string>
+    <string name="u6_uyg7">Uygulama 7 \n()</string>
+    <string name="u6_uyg8">Uygulama 8 \n()</string>
+    <string name="u6_uyg9">Uygulama 9 \n()</string>
+    <string name="u6_uyg10">Uygulama 10 \n()</string>
+
+
 </resources>
