@@ -46,10 +46,13 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/btn_SS_247"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:backgroundTint="@color/orange"
+                    android:onClick="btn_SS_247"
+                    android:text="@string/u6_ss_247"
+                    android:textColor="@color/black" />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

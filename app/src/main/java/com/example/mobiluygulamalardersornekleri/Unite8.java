@@ -10,4 +10,13 @@ public class Unite8 extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
+
+    // *****************************************************************
+    // MODÜL UYGULAMALARI
+    // *****************************************************************
+
+
+    // *****************************************************************
+    // SIRA SİZDE UYGULAMALARI
+    // *****************************************************************
 }

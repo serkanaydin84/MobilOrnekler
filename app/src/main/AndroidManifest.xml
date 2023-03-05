@@ -84,6 +84,8 @@
         <!-- **************** ÜNİTE 6 TANIMLAMALARI ******************* -->
         <!-- ********************************************************** -->
         <activity android:name=".unite6.uyg1.Uyg1" android:label="@string/u6_uyg1"></activity>
+
+        <activity android:name=".unite6.ss247.SS_247" android:label="@string/u6_ss_247"></activity>
     </application>
 
 </manifest>

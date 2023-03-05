@@ -1,6 +1,7 @@
 package com.example.mobiluygulamalardersornekleri.unite6.uyg1;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -30,8 +31,8 @@ public class Uyg1 extends AppCompatActivity {
 
         gorselArrayList = new ArrayList<>();
 
-        Gorsel balon = new Gorsel("Balonlar", 1, R.drawable.balon);
-        Gorsel cicek = new Gorsel("Çiçekler", 2, R.drawable.cicek);
+        Gorsel balon = new Gorsel("Rengarenk Balonlar", 1, R.drawable.balon);
+        Gorsel cicek = new Gorsel("Muhteşem Çiçekler", 2, R.drawable.cicek);
         Gorsel kelebek = new Gorsel("Mavi Kelebek", 3, R.drawable.kelebek);
         Gorsel kus = new Gorsel("Muhabbet Kuşu", 4, R.drawable.kus);
 
@@ -45,7 +46,7 @@ public class Uyg1 extends AppCompatActivity {
         seciliSiraNo = 0;
     }
 
-    public void geriGelme() {
+    public void geriGelme(View view) {
         if (seciliSiraNo > 0) {
             seciliSiraNo--;
             imageViewGorsel.setImageResource(gorselArrayList.get(seciliSiraNo).foto);
@@ -53,7 +54,8 @@ public class Uyg1 extends AppCompatActivity {
         }
     }
 
-    public void ileriGitme() {
+    public void ileriGitme(View view) {
+        System.out.println(seciliSiraNo);
         if (seciliSiraNo < gorselArrayList.size() - 1) {
             seciliSiraNo++;
             imageViewGorsel.setImageResource(gorselArrayList.get(seciliSiraNo).foto);
