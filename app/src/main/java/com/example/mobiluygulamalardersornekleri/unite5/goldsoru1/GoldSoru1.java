@@ -27,7 +27,7 @@ public class GoldSoru1 extends AppCompatActivity {
     }
 
     public void btn0(View view) {
-        if (islem.length() == 0){
+        if (islem == ""){
             dortIslem.setSayi1(0);
         } else {
             dortIslem.setSayi2(0); }
@@ -35,7 +35,7 @@ public class GoldSoru1 extends AppCompatActivity {
     }
 
     public void btn1(View view) {
-        if (islem.length() == 0){
+        if (islem == ""){
             dortIslem.setSayi1(1);
         } else {
             dortIslem.setSayi2(1); }
