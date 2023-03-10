@@ -14,6 +14,7 @@ import com.example.mobiluygulamalardersornekleri.unite5.SS_188;
 import com.example.mobiluygulamalardersornekleri.unite5.SS_193;
 import com.example.mobiluygulamalardersornekleri.unite5.SS_206;
 import com.example.mobiluygulamalardersornekleri.unite5.SS_214;
+import com.example.mobiluygulamalardersornekleri.unite5.goldsoru1.GoldSoru1;
 import com.example.mobiluygulamalardersornekleri.unite5.uyg1.Uyg1;
 import com.example.mobiluygulamalardersornekleri.unite5.uyg10.Uyg10;
 import com.example.mobiluygulamalardersornekleri.unite5.uyg11.Uyg11;
@@ -140,6 +141,15 @@ public class Unite5 extends AppCompatActivity {
 
     public void btn_SS214(View view){
         Intent i = new Intent(Unite5.this, SS_214.class);
+        startActivity(i);
+    }
+
+
+    // *****************************************************************
+    // GOLD SORU UYGULAMALARI
+    // *****************************************************************
+    public void btn_GoldSoru1(View view) {
+        Intent i = new Intent(Unite5.this, GoldSoru1.class);
         startActivity(i);
     }
 }

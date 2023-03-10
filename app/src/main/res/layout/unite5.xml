@@ -227,6 +227,16 @@
                         android:onClick="btn_SS214"
                         android:text="@string/u5_ss_214"
                         android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_GoldSoru1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/gold"
+                        android:onClick="btn_GoldSoru1"
+                        android:text="@string/u5_goldsoru1"
+                        android:textColor="@color/black" />
                 </LinearLayout>
             </ScrollView>
 

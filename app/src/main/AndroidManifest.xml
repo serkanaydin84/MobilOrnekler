@@ -79,6 +79,7 @@
         <activity android:name=".unite5.SS_193" android:label="@string/u5_ss_193"></activity>
         <activity android:name=".unite5.SS_206" android:label="@string/u5_ss_206"></activity>
         <activity android:name=".unite5.SS_214" android:label="@string/u5_ss_214"></activity>
+        <activity android:name=".unite5.goldsoru1.GoldSoru1" android:label="@string/u5_goldsoru1"></activity>
 
         <!-- ********************************************************** -->
         <!-- **************** ÜNİTE 6 TANIMLAMALARI ******************* -->
