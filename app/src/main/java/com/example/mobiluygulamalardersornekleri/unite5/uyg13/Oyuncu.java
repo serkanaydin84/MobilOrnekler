@@ -4,6 +4,8 @@ public class Oyuncu {
 
     private String isim;
     private Integer can;
+    private Integer topcuAG;
+    private Integer tankciAG;
 
     public Oyuncu(String isim, Integer can) {
         this.isim = isim;
@@ -18,6 +20,14 @@ public class Oyuncu {
         this.isim = isim;
     }
 
+    public void setTopcuAG(Integer topcuAG) {
+        this.topcuAG = topcuAG;
+    }
+
+    public void setTankciAG(Integer tankciAG) {
+        this.tankciAG = tankciAG;
+    }
+
     public Integer getCan() {
         return can;
     }
@@ -26,6 +36,6 @@ public class Oyuncu {
         this.can = can;
     }
 
-    public Asker tankci = new Tankci();
-    public Asker topcu = new Topcu();
+    public Asker tankci = new Tankci(tankciAG);
+    public Asker topcu = new Topcu(topcuAG);
 }

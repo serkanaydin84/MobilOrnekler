@@ -15,4 +15,5 @@
     <color name="light_greeen">#FF90EE90</color>
     <color name="blue">#FF0000FF</color>
     <color name="pink">#FFFF1493</color>
+    <color name="grey">#FFCCCCCC</color>
 </resources>

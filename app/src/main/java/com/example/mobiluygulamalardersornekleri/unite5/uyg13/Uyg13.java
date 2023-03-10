@@ -3,6 +3,7 @@ package com.example.mobiluygulamalardersornekleri.unite5.uyg13;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -16,7 +17,9 @@ import java.util.ArrayList;
 public class Uyg13 extends AppCompatActivity {
 
     Oyuncu oyuncu1, oyuncu2;
-    Button btnTank1, btnTank2, btnTopcu1, btnTopcu2, btnReset;
+
+    EditText txtTopcuAtegucu, txtTankciAtesGucu;
+    Button btnTank1, btnTank2, btnTopcu1, btnTopcu2, btnReset, btnAyarlariKaydet;
     ProgressBar progressBar1, progressBar2;
     TextView textViewIsabet;
     ArrayList<Oyuncu> oyuncular = new ArrayList<>();
@@ -27,19 +30,25 @@ public class Uyg13 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.u5_uyg13);
 
-        oyuncu1 = new Oyuncu("Oyuncu 1", 100);
+        oyuncu1 = new Oyuncu("Serkan", 100);
         oyuncu2 = new Oyuncu("Oyuncu 2", 100);
         oyuncular.add(oyuncu1);
         oyuncular.add(oyuncu2);
 
-        btnTank1 = findViewById(R.id.btnTankci1);
-        btnTank2 = findViewById(R.id.btnTankci2);
-        btnTopcu1 = findViewById(R.id.btnTopcu1);
-        btnTopcu2 = findViewById(R.id.btnTopcu2);
-        btnReset = findViewById(R.id.btnReset);
-        progressBar1 = findViewById(R.id.progressBar1);
-        progressBar2 = findViewById(R.id.progressBar2);
-        textViewIsabet = findViewById(R.id.textViewIsabet);
+        Tanimlamalar();
+
+        btnAyarlariKaydet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Integer topcuAG = Integer.parseInt(txtTopcuAtegucu.getText().toString());
+                Integer tankciAG = Integer.parseInt(txtTankciAtesGucu.getText().toString());
+                oyuncu1.topcu.setAtesGucu(topcuAG);
+                oyuncu1.tankci.setAtesGucu(tankciAG);
+
+                oyuncu2.topcu.setAtesGucu(topcuAG);
+                oyuncu2.tankci.setAtesGucu(tankciAG);
+            }
+        });
 
         btnTank1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,6 +100,20 @@ public class Uyg13 extends AppCompatActivity {
                 textViewIsabet.setText("0");
             }
         });
+    }
+
+    private void Tanimlamalar() {
+        txtTopcuAtegucu = findViewById(R.id.txtTopcuAtesGucu);
+        txtTankciAtesGucu = findViewById(R.id.txtTankciAtesGucu);
+        btnTank1 = findViewById(R.id.btnTankci1);
+        btnTank2 = findViewById(R.id.btnTankci2);
+        btnTopcu1 = findViewById(R.id.btnTopcu1);
+        btnTopcu2 = findViewById(R.id.btnTopcu2);
+        btnReset = findViewById(R.id.btnReset);
+        btnAyarlariKaydet = findViewById(R.id.btnAyarlariKaydet);
+        progressBar1 = findViewById(R.id.progressBar1);
+        progressBar2 = findViewById(R.id.progressBar2);
+        textViewIsabet = findViewById(R.id.textViewIsabet);
     }
 
     private void oyuncuKontrolEt() {

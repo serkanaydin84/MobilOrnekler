@@ -4,8 +4,9 @@ public class Topcu extends Asker{
     private Integer atisSayisi;
     private boolean topIsindi = false;
 
-    public Topcu() {
-        super(3, 7);
+
+    public Topcu(Integer atesGucu) {
+        super(atesGucu, 7);
         atisSayisi = 0;
     }
 
