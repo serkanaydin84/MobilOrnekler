@@ -19,5 +19,4 @@ public class Dortgen {
         this.kisaKenar = kisaKenar;
         this.uzunKenar = uzunKenar;
     }
-
 }
